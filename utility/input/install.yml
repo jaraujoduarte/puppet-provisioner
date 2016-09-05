@@ -1,0 +1,15 @@
+# FQDN of the target where the puppet agent will be installed
+target:
+# Username to access target through ssh (with sudo permissions)
+ssh_username_target:
+# Password to access target through ssh
+ssh_password_target:
+# FQDN of the puppet master
+puppet_master:
+# Username to access puppet master through ssh (with sudo permissions)
+ssh_username_master:
+# Password to access puppet master through ssh
+ssh_password_master:
+# List of classes to apply to the new node
+roles:
+  #i.e. (- web_server)
